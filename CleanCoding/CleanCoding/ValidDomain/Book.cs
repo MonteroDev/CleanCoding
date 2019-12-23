@@ -21,7 +21,6 @@ namespace CleanCoding.ValidDomain
 
         internal string Title { get; private set; }
         internal string Author { get; private set; }
-
         internal string Price { get; private set; }
 
         public void UpdatePrice(decimal newPrice, string currencyCultureName)
