@@ -19,16 +19,14 @@ namespace CleanCoding.ValidDomain
             Author = author;
         }
 
-        internal string Title { get; set; }
-        internal string Author { get; set; }
+        internal string Title { get; private set; }
+        internal string Author { get; private set; }
 
-        internal string Price { get; set; }
+        internal string Price { get; private set; }
 
-        internal void UpdateAndFormatPrice(decimal newPrice, string currencyCultureName)
+        public void UpdatePrice(decimal newPrice, string currencyCultureName)
         {
-            var currencyCulture = System.Globalization.CultureInfo.CreateSpecificCulture(currencyCultureName);
-
-            Price = newPrice.ToString("C", currencyCulture);
+            Price = PriceFormatter.FormatPrice(newPrice, currencyCultureName);
         }
     }
 }

@@ -48,6 +48,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ValidDomain\Book.cs" />
     <Compile Include="ValidDomain\BookValidator.cs" />
+    <Compile Include="ValidDomain\PriceFormatter.cs" />
+    <Compile Include="ValidDomain\PriceValidator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
