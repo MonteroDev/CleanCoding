@@ -23,7 +23,7 @@ namespace CleanCoding.ValidDomain
         internal string Author { get; private set; }
         internal string Price { get; private set; }
 
-        public void UpdatePrice(decimal newPrice, string currencyCultureName)
+        internal void UpdatePrice(decimal newPrice, string currencyCultureName)
         {
             Price = PriceFormatter.FormatPrice(newPrice, currencyCultureName);
         }
