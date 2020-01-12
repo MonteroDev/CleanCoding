@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanCoding.ValidDomain
+namespace CleanCoding.ValidDomain.ISP
 {
     internal class Book
     {

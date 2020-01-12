@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanCoding.ValidDomain
+namespace CleanCoding.ValidDomain.DIP
 {
     internal class Book
     {

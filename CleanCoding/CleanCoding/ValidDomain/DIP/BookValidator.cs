@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CleanCoding.ValidDomain
+namespace CleanCoding.ValidDomain.DIP
 {
     internal static class BookValidator
     {
