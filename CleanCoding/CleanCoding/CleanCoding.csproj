@@ -49,8 +49,29 @@
     <Compile Include="ValidDomain\Book.cs" />
     <Compile Include="ValidDomain\BookExtensions.cs" />
     <Compile Include="ValidDomain\BookValidator.cs" />
+    <Compile Include="ValidDomain\DIP\Book.cs" />
+    <Compile Include="ValidDomain\DIP\BookValidator.cs" />
+    <Compile Include="ValidDomain\DIP\PriceFormatter.cs" />
+    <Compile Include="ValidDomain\DIP\PriceValidator.cs" />
+    <Compile Include="ValidDomain\ISP\Book.cs" />
+    <Compile Include="ValidDomain\ISP\BookValidator.cs" />
+    <Compile Include="ValidDomain\ISP\PriceFormatter.cs" />
+    <Compile Include="ValidDomain\ISP\PriceValidator.cs" />
+    <Compile Include="ValidDomain\LSP\Book.cs" />
+    <Compile Include="ValidDomain\LSP\BookValidator.cs" />
+    <Compile Include="ValidDomain\LSP\PriceFormatter.cs" />
+    <Compile Include="ValidDomain\LSP\PriceValidator.cs" />
+    <Compile Include="ValidDomain\OCP\Book.cs" />
+    <Compile Include="ValidDomain\OCP\BookExtensions.cs" />
+    <Compile Include="ValidDomain\OCP\BookValidator.cs" />
+    <Compile Include="ValidDomain\OCP\PriceFormatter.cs" />
+    <Compile Include="ValidDomain\OCP\PriceValidator.cs" />
     <Compile Include="ValidDomain\PriceFormatter.cs" />
     <Compile Include="ValidDomain\PriceValidator.cs" />
+    <Compile Include="ValidDomain\SRP\Book.cs" />
+    <Compile Include="ValidDomain\SRP\BookValidator.cs" />
+    <Compile Include="ValidDomain\SRP\PriceFormatter.cs" />
+    <Compile Include="ValidDomain\SRP\PriceValidator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
