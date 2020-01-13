@@ -44,23 +44,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="InvalidDomain\Book.cs" />
+    <Compile Include="InvalidDomain\ISP\Bird.cs" />
+    <Compile Include="InvalidDomain\ISP\IAnimal.cs" />
+    <Compile Include="InvalidDomain\ISP\Lion.cs" />
+    <Compile Include="InvalidDomain\LSP\Rectangle.cs" />
+    <Compile Include="InvalidDomain\LSP\Square.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ValidDomain\Book.cs" />
     <Compile Include="ValidDomain\BookExtensions.cs" />
     <Compile Include="ValidDomain\BookValidator.cs" />
-    <Compile Include="ValidDomain\DIP\Book.cs" />
-    <Compile Include="ValidDomain\DIP\BookValidator.cs" />
-    <Compile Include="ValidDomain\DIP\PriceFormatter.cs" />
-    <Compile Include="ValidDomain\DIP\PriceValidator.cs" />
-    <Compile Include="ValidDomain\ISP\Book.cs" />
-    <Compile Include="ValidDomain\ISP\BookValidator.cs" />
-    <Compile Include="ValidDomain\ISP\PriceFormatter.cs" />
-    <Compile Include="ValidDomain\ISP\PriceValidator.cs" />
-    <Compile Include="ValidDomain\LSP\Book.cs" />
-    <Compile Include="ValidDomain\LSP\BookValidator.cs" />
-    <Compile Include="ValidDomain\LSP\PriceFormatter.cs" />
-    <Compile Include="ValidDomain\LSP\PriceValidator.cs" />
+    <Compile Include="ValidDomain\ISP\Bird.cs" />
+    <Compile Include="ValidDomain\ISP\IAnimal.cs" />
+    <Compile Include="ValidDomain\ISP\IFlyable.cs" />
+    <Compile Include="ValidDomain\ISP\Lion.cs" />
+    <Compile Include="ValidDomain\LSP\IShape.cs" />
+    <Compile Include="ValidDomain\LSP\Rectangle.cs" />
+    <Compile Include="ValidDomain\LSP\Square.cs" />
     <Compile Include="ValidDomain\OCP\Book.cs" />
     <Compile Include="ValidDomain\OCP\BookExtensions.cs" />
     <Compile Include="ValidDomain\OCP\BookValidator.cs" />
@@ -76,5 +76,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
